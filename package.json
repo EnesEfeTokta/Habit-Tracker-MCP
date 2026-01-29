@@ -1,0 +1,25 @@
+{
+  "name": "habit-tracker-mcp",
+  "version": "1.0.0",
+  "description": "It is a Model Context Protocol (MCP) server that stores the user's daily activities (sports, reading, water consumption, etc.) in a local database and provides intelligent access, analysis, and reporting capabilities to this data via AI (Claude).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnesEfeTokta/Habit-Tracker-MCP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnesEfeTokta/Habit-Tracker-MCP/issues"
+  },
+  "homepage": "https://github.com/EnesEfeTokta/Habit-Tracker-MCP#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "lowdb": "^7.0.1"
+  }
+}
